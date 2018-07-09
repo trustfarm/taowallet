@@ -1,12 +1,31 @@
-### [https://www.MyEtherWallet.com](https://www.MyEtherWallet.com)
+### TrustCoinWallet for TAO 
 
-### [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
+This wallet is customized for TAO Architecture and for [TEO Wallet]()
 
-### [Download the Latest Release](https://github.com/kvhnuke/etherwallet/releases/latest)
+### [https://www.trustcoinwallet.com](https://www.trustcoinwallet.com)
 
-- etherwallet-vX.X.X.X.zip is the smaller package containing the gh-pages branch aka MyEtherWallet.com
+### [Download the Latest Release](https://github.com/trustfarm/taowallet/releases/latest)
+
+### [Chrome Extension - you can make locally import package .zip file in chrome browser]
+
+
+- taowallet-vX.X.X.X.zip is the smaller package containing the gh-pages branch aka TrustCoinWallet.com
 - chrome-extension-vX.X.X.X.zip is the chrome extension package
-- source code is the full source for developers to get started with (although cloning or forking the mercury branch is probably a better choice)
+- source code is the full source for developers
+
+
+#### TrustCoinWallet.com & CX .Zip & src are licensed under The MIT License (MIT).
+
+Base fork is MEW ( [MyEtherWallet](https://www.myetherwallet.com) )
+
+
+-------------------------------------------------------------
+
+<br>
+
+
+
+
 
 
 ### MEW Around the Web
@@ -92,8 +111,6 @@
 In case you are not familiar, you need to keep the entire folder in order to run the website, not just index.html. Don't touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.
 
 As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo.
-
-
 
 
 

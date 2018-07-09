@@ -15,7 +15,7 @@
 <link rel="manifest" href="images/fav/manifest.json">
 <link rel="mask-icon" href="images/fav/safari-pinned-tab.svg" color="#2f99b0">
 <link rel="shortcut icon" href="images/fav/favicon2.ico">
-<meta name="apple-mobile-web-app-title" content="TrustCoinWallet &middot; Your Key to Ethereum">
+<meta name="apple-mobile-web-app-title" content="TrustCoinWallet &middot; Your Key to TAO">
 <meta name="application-name" content="TrustCoinWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">

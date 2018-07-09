@@ -47,7 +47,8 @@ nodes.nodeList = {
         'service': 'MyEtherWallet',
         'lib': new nodes.customNode('https://api.myetherapi.com/eth', '')
     },
-    'etc_tfarm': {
+
+    'etc_epool': {
         'name': 'ETC',
         'blockExplorerTX': 'https://gastracker.io/tx/[[txHash]]',
         'blockExplorerAddr': 'https://gastracker.io/addr/[[address]]',
@@ -56,92 +57,8 @@ nodes.nodeList = {
         'chainId': 61,
         'tokenList': require('./tokens/etcTokens.json'),
         'abiList': require('./abiDefinitions/etcAbi.json'),
-        'service': 'trustfarm.io',
-        'lib': new nodes.customNode('https://etcnode.trustfarm.io/api', '')
-    },
-    'eth_ethscan': {
-        'name': 'ETH',
-        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.ETH,
-        'eip155': true,
-        'chainId': 1,
-        'tokenList': require('./tokens/ethTokens.json'),
-        'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'Etherscan.io',
-        'lib': require('./nodeHelpers/etherscan')
-    },
-    'eth_infura': {
-        'name': 'ETH',
-        'blockExplorerTX': 'https://etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.ETH,
-        'eip155': true,
-        'chainId': 1,
-        'tokenList': require('./tokens/ethTokens.json'),
-        'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'infura.io',
-        'lib': new nodes.infuraNode('https://mainnet.infura.io/mew')
-    },
-    'rop_mew': {
-        'name': 'Ropsten',
-        'type': nodes.nodeTypes.Ropsten,
-        'blockExplorerTX': 'https://ropsten.etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://ropsten.etherscan.io/address/[[address]]',
-        'eip155': true,
-        'chainId': 3,
-        'tokenList': require('./tokens/ropstenTokens.json'),
-        'abiList': require('./abiDefinitions/ropstenAbi.json'),
-        'service': 'MyEtherWallet',
-        'lib': new nodes.customNode('https://api.myetherapi.com/rop', '')
-    },
-    'rop_infura': {
-        'name': 'Ropsten',
-        'blockExplorerTX': 'https://ropsten.etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://ropsten.etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.Ropsten,
-        'eip155': true,
-        'chainId': 3,
-        'tokenList': require('./tokens/ropstenTokens.json'),
-        'abiList': require('./abiDefinitions/ropstenAbi.json'),
-        'service': 'infura.io',
-        'lib': new nodes.infuraNode('https://ropsten.infura.io/mew')
-    },
-    'kov_ethscan': {
-        'name': 'Kovan',
-        'type': nodes.nodeTypes.Kovan,
-        'blockExplorerTX': 'https://kovan.etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://kovan.etherscan.io/address/[[address]]',
-        'eip155': true,
-        'chainId': 42,
-        'tokenList': require('./tokens/kovanTokens.json'),
-        'abiList': require('./abiDefinitions/kovanAbi.json'),
-        'service': 'Etherscan.io',
-        'lib': require('./nodeHelpers/etherscanKov')
-    },
-    'rin_ethscan': {
-        'name': 'Rinkeby',
-        'type': nodes.nodeTypes.Rinkeby,
-        'blockExplorerTX': 'https://rinkeby.etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://rinkeby.etherscan.io/address/[[address]]',
-        'eip155': true,
-        'chainId': 4,
-        'tokenList': require('./tokens/rinkebyTokens.json'),
-        'abiList': require('./abiDefinitions/rinkebyAbi.json'),
-        'service': 'Etherscan.io',
-        'lib': require('./nodeHelpers/etherscanRin')
-    },
-    'rin_infura': {
-        'name': 'Rinkeby',
-        'blockExplorerTX': 'https://rinkeby.etherscan.io/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://rinkeby.etherscan.io/address/[[address]]',
-        'type': nodes.nodeTypes.Rinkeby,
-        'eip155': true,
-        'chainId': 4,
-        'tokenList': require('./tokens/rinkebyTokens.json'),
-        'abiList': require('./abiDefinitions/rinkebyAbi.json'),
-        'service': 'infura.io',
-        'lib': new nodes.infuraNode('https://rinkeby.infura.io/mew')
+        'service': 'epool.io',
+        'lib': new nodes.customNode('https://mew.epool.io', '')
     }
 };
 nodes.ethPrice = require('./nodeHelpers/ethPrice');

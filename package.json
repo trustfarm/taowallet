@@ -1,7 +1,7 @@
 {
-  "name": "tcw-custom",
-  "version": "0.9.1",
-  "description": "TrustCoinWallet.com",
+  "name": "tcw-toa",
+  "version": "0.9.2",
+  "description": "TrustCoinWallet.com for TAO",
   "main": "gulpfile.js",
   "author": "trustfarm fork from MEW",
   "license": "ISC",
